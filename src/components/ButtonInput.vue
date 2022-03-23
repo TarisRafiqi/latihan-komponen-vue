@@ -1,11 +1,11 @@
 <template>
-    <button class="buttonTambahkan" @click="addTodo">Tambahkan</button>
+    <button class="buttonTambahkan" @click="tambahkanAddTodo">Tambahkan</button>
 </template>
 
 <script>
 export default {
     methods: {
-        addTodo() {
+        tambahkanAddTodo() {
             this.$emit('tambahin');
         }
     }

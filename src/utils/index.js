@@ -1,0 +1,1 @@
+// Tempat fungsi yang akan di export ke App.vue
